@@ -4,9 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>git bash commands</title>
   </head>
   <body>
-    Testfile
+    git init - ініціалізація нового локального гіт репозиторію
+
+git add . - додати всі файли, щоб git почав їх відслідковувати
+
+git commit -m ‘init commit’ - створити коміт, тобто зберегти в гіт ваші локальні зміни
+
+git remote add origin https://github.com/account_name/repo_name.git - зв’язати/синхронізувати локальний репозиторій з тим, що знаходиться на github.com
+
+git remote remove origin - видалити/відв’язати локальний репозиторій від github
+
+git push origin branch-name - запушити дані з локального репозиторію на репозиторій github
+
+git pull origin branch-name - стягнути дані з репозиторію github на локальний репозиторій
+
+git status - перевірити статус локального репозиторію (на якій гілці знаходитесь, чи є зміни які не додані у git, чи є зміни які не додані у коміт)
+
+git branch - отримати список локальних гілок (гілка, на якій знаходитесь, буде підсвічуватись)
+
+git branch branch-name - створити нову гілку
+
+git branch -D branch-name - видалити гілку
+
+git checkout branch-name - перейти на іншу гілку (яка вже є створена)
+
+git checkout -b branch-name - перейти на нову гілку (створити і одразу перейти на гілку)
+
+
+Порядок дій при внесенні змін у вашу домашню роботу (при умові, що локальний репозиторій синхронізовано з репозиторієм в github):
+git add .
+git commit -m ‘опис зроблених змін’
+git push origin branch-name
+
   </body>
 </html>
