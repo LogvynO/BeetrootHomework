@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+}
+
+#Body {
+    background-color: rgba(121, 116, 116, 0.499);
+    background-image: url(./images/dark-green-texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+}
+
+#profile-picture {
+    color: rgb(238, 227, 0);
+}
+
+img {
+    width: 310px;
+    height: 340px;
+}
+
+#About-me {
+    color: rgb(238, 227, 0);
+    text-align: center;
+}
+
+#Contact-details {
+    color: rgb(238, 227, 0);
+}
+
+#Education {
+    color: rgb(238, 227, 0);
+}
+
+#Expirience {
+    color: rgb(238, 227, 0);
+}
+
+a:link,
+a:visited {
+    background-color: rgb(255, 243, 14);
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    break-after: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
