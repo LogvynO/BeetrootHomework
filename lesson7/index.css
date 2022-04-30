@@ -1,0 +1,116 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+a, button {
+    transition: all .2s ease;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 0 0 5px #000;
+}
+
+.header_flex {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.div_left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div_left > img {
+    width: 50px;
+    height: 30px;
+}
+
+.div_right > img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_flex {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+aside {
+    margin-right: 50px;
+    width: 340px;
+}
+
+ol {
+    position: sticky;
+    top: 100px;
+}
+
+li > a {
+    width: 100%;
+}
+
+section {
+    width: 900px;
+    margin-top: 91px;
+    padding-top: 15px;
+}
+
+.blackborder {
+    border-top: 4px solid black;
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+h2, p {
+    margin-bottom: 20px;
+}
+
+h2 {
+    scroll-margin-top: 91px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.highlight {
+    background-color: #ededed;
+}
