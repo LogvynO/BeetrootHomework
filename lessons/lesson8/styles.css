@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+header {
+    top: 0px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 78px;
+    z-index: calc(1);
+    background-color: #fff;
+}
+
+.left_header {
+    padding-left: 40px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.right_header {
+    display: flex;
+    padding-right: 40px;
+    justify-content: right;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.right_header>ul>li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.container {
+    padding-top: 150px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 146px;
+}
+
+.text {
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    line-height: 30px;
+    max-width: 500px;
+
+}
+
+.text>h1 {
+    font-weight: 700px;
+    line-height: 50px;
+}
+
+.right_picture>img {
+    padding-right: 0px;
+}
+
+.link_button {
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 308px;
+    border-top: #D8D8D8 2px solid;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.column1>ul {
+    list-style: none;
+
+}
+
+.column2>ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sign_in {
+    background-color: #fff;
+    border: #BCD0E5 2px solid;
+    color: #173A56;
+}
+
+.video_button {
+    background-color: #fff;
+    border-top: 20px;
+}
+
+.footertext {
+    align-items: center;
+    Width: 400px;
+    Height: 100px;
+}
+
+.textinput {
+    Width: 325px;
+    Height: 48px;
+}
