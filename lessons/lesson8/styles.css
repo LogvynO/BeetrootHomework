@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,6 +10,7 @@
 
 html,
 body {
+    margin: 0;
     width: 100%;
     height: 100%;
     align-items: flex-start;
@@ -20,17 +23,21 @@ body {
     color: #000;
     font-size: 1rem;
     line-height: 1.5rem;
+    margin: 0 auto;
+    font-family: 'Poppins';
 }
 
 header {
     top: 0px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     height: 78px;
     z-index: calc(1);
     background-color: #fff;
+    padding: 0 140px;
 }
 
 .left_header {
@@ -41,7 +48,6 @@ header {
 
 .right_header {
     display: flex;
-    padding-right: 40px;
     justify-content: right;
     gap: 30px;
     align-items: center;
@@ -53,28 +59,43 @@ header {
     padding-left: 10px;
 }
 
-.container {
-    padding-top: 150px;
-    width: 100%;
+main {
     margin: 0 auto;
-    display: inline-flex;
-    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
     align-items: center;
-    padding-bottom: 146px;
+    padding: 0 120px;
+    padding-top: 150px;
+    padding-bottom: 146px
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .text {
     align-items: center;
     justify-content: center;
-    margin-left: 150px;
+    margin-right: 51px;
     line-height: 30px;
     max-width: 500px;
-
+    font-family: 'Poppins';
 }
 
 .text>h1 {
-    font-weight: 700px;
-    line-height: 50px;
+    font-family: 'roboto';
+    font-weight: bold;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.gathered_buttons {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .right_picture>img {
@@ -85,6 +106,118 @@ header {
     text-decoration: underline;
     padding-left: 15px;
 }
+
+.container2 {
+    margin: 0;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 145px;
+    padding-top: 50px;
+    height: 343px;
+}
+
+.subject {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 145px;
+}
+
+.content-text {
+    padding-top: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.column {
+    width: 200px;
+    line-height: 25px;
+}
+
+.column>h3 {
+    margin-bottom: 15px;
+}
+
+.fa-circle-arrow-up {
+    color: #7752BE;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.fa-wave-square {
+    color: #FAB005;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.fa-gratipay {
+    color: #F03E3D;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.fa-hourglass-end {
+    color: #4DADF7;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.button2 {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.section1>p,h2,h4 {
+    padding-bottom: 15px;
+}
+
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.product_managers {
+    align-items: flex-start;
+    width: 500px;
+}
+
+.goupped_ticks {
+    padding-top: 30px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.section3 {
+    width: 100%;
+}
+
+.grouped_ticks>div {
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tick {
+    display: inline-flex;
+}
+
+.tick>p {
+    padding-left: 30px;
+}
+
 
 footer {
     width: 100%;
@@ -161,4 +294,12 @@ button {
 .textinput {
     Width: 325px;
     Height: 48px;
+}
+
+h1,h2,h3,h4 {
+    color: rgba(47, 40, 30, 1);
+}
+
+p {
+    color: rgba(84, 72, 55, 1);
 }
