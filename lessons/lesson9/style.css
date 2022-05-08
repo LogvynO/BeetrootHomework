@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 140px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.stickyhead {
+    margin: 0;
+    top: 0;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: inline-flex;
+    z-index: calc(1);
+}
+
+.stickyhead>ul {
+    justify-content: space-between;
+}
+
+.stickyhead>ul>li {
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.denis {
+    margin: 0;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.profile_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.denis_picture {
+    display: flex;
+    justify-content: center;
+}
+
+.about_me {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #F6F6F6;
+}
+
+.about_text {
+    padding-top: 80px;
+}
+
+.about_me>.about_text>h2,p {
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+}
+
+.skills {
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.portfolio {
+    text-align: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contacts {
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    background-color: black;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
