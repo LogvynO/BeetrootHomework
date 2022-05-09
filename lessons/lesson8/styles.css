@@ -3,303 +3,309 @@
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    align-items: flex-start;
-    justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 body {
-    background-color: #fff;
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    color: #000;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin: 0 auto;
-    font-family: 'Poppins';
+  background-color: #fff;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0 auto;
+  font-family: 'Poppins';
 }
 
 header {
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: 78px;
-    z-index: calc(1);
-    background-color: #fff;
-    padding: 0 140px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 78px;
+  z-index: calc(
+    1
+  ); /* TODO тут можна було б просто вказати 1 замість calc(1); calc в цьому випадку нічого не роюить */
+  background-color: #fff;
+  padding: 0 140px;
 }
 
 .left_header {
-    padding-left: 40px;
-    padding-top: 20px;
-    align-items: center;
+  padding-left: 40px;
+  padding-top: 20px;
+  align-items: center;
 }
 
 .right_header {
-    display: flex;
-    justify-content: right;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  align-items: center;
 }
 
-
-.right_header>ul>li {
-    display: inline-block;
-    padding-left: 10px;
+.right_header > ul > li {
+  display: inline-block;
+  padding-left: 10px;
 }
 
 main {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1440px;
-    align-items: center;
-    padding: 0 120px;
-    padding-top: 150px;
-    padding-bottom: 146px
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  align-items: center;
+  padding: 0 120px;
+  padding-top: 150px;
+  padding-bottom: 146px;
 }
 
 .container1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .text {
-    align-items: center;
-    justify-content: center;
-    margin-right: 51px;
-    line-height: 30px;
-    max-width: 500px;
-    font-family: 'Poppins';
+  align-items: center;
+  justify-content: center;
+  margin-right: 51px;
+  line-height: 30px;
+  max-width: 500px;
+  font-family: 'Poppins';
 }
 
-.text>h1 {
-    font-family: 'roboto';
-    font-weight: bold;
-    line-height: 30px;
-    padding-bottom: 20px;
+.text > h1 {
+  font-family: 'roboto';
+  font-weight: bold;
+  line-height: 30px;
+  padding-bottom: 20px;
 }
 
 .gathered_buttons {
-    padding-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.right_picture>img {
-    padding-right: 0px;
+.right_picture > img {
+  padding-right: 0px;
 }
 
 .link_button {
-    text-decoration: underline;
-    padding-left: 15px;
+  text-decoration: underline;
+  padding-left: 15px;
 }
 
 .container2 {
-    margin: 0;
-    margin-top: 70px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 145px;
-    padding-top: 50px;
-    height: 343px;
+  margin: 0;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 145px;
+  padding-top: 50px;
+  height: 343px;
 }
 
 .subject {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 145px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 145px;
 }
 
 .content-text {
-    padding-top: 40px;
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
+  padding-top: 40px;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .column {
-    width: 200px;
-    line-height: 25px;
+  width: 200px;
+  line-height: 25px;
 }
 
-.column>h3 {
-    margin-bottom: 15px;
+.column > h3 {
+  margin-bottom: 15px;
 }
 
 .fa-circle-arrow-up {
-    color: #7752BE;
-    font-size: 40px;
-    margin-bottom: 30px;
+  color: #7752be;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .fa-wave-square {
-    color: #FAB005;
-    font-size: 40px;
-    margin-bottom: 30px;
+  color: #fab005;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .fa-gratipay {
-    color: #F03E3D;
-    font-size: 40px;
-    margin-bottom: 30px;
+  color: #f03e3d;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .fa-hourglass-end {
-    color: #4DADF7;
-    font-size: 40px;
-    margin-bottom: 30px;
+  color: #4dadf7;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .button2 {
-    display: flex;
-    padding-top: 40px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .container3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
 }
 
-.section1>p,h2,h4 {
-    padding-bottom: 15px;
+.section1 > p,
+h2,
+h4 {
+  padding-bottom: 15px;
 }
 
 .container4 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
 }
 
 .product_managers {
-    align-items: flex-start;
-    width: 500px;
+  align-items: flex-start;
+  width: 500px;
 }
 
 .goupped_ticks {
-    padding-top: 30px;
-    align-items: flex-start;
-    justify-content: space-around;
+  padding-top: 30px;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 
 .section3 {
-    width: 100%;
+  width: 100%;
 }
 
-.grouped_ticks>div {
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100%;
+.grouped_ticks > div {
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .tick {
-    display: inline-flex;
+  display: inline-flex;
 }
 
-.tick>p {
-    padding-left: 30px;
+.tick > p {
+  padding-left: 30px;
 }
-
 
 footer {
-    width: 100%;
-    height: 308px;
-    border-top: #D8D8D8 2px solid;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding-top: 100px;
+  width: 100%;
+  height: 308px;
+  border-top: #d8d8d8 2px solid;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 100px;
 }
 
-.column1>ul {
-    list-style: none;
-
+.column1 > ul {
+  list-style: none;
 }
 
-.column2>ul {
-    list-style: none;
+.column2 > ul {
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
+/* TODO краще не називати клас просто button, тим більше, що використовуєш тег button як селектор, це може плутати */
+/* TODO було б непогано додати hover ефект на кнопки */
 .button {
-    background-color: #FF9900;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 button {
-    background-color: #FF9900;
-    border: none;
-    color: white;
-    padding: 9px 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 2px 1px;
-    cursor: pointer;
-    border-radius: 5px;
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .sign_in {
-    background-color: #fff;
-    border: #BCD0E5 2px solid;
-    color: #173A56;
+  background-color: #fff;
+  border: #bcd0e5 2px solid;
+  color: #173a56;
 }
 
 .video_button {
-    background-color: #fff;
-    border-top: 20px;
+  background-color: #fff;
+  border-top: 20px;
 }
 
 .footertext {
-    align-items: center;
-    Width: 400px;
-    Height: 100px;
+  align-items: center;
+  width: 400px;
+  height: 100px;
 }
 
 .textinput {
-    Width: 325px;
-    Height: 48px;
+  width: 325px;
+  height: 48px;
 }
 
-h1,h2,h3,h4 {
-    color: rgba(47, 40, 30, 1);
+h1,
+h2,
+h3,
+h4 {
+  color: rgba(47, 40, 30, 1);
 }
 
 p {
-    color: rgba(84, 72, 55, 1);
+  color: rgba(84, 72, 55, 1);
 }
