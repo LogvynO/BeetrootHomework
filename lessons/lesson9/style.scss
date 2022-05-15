@@ -1,0 +1,246 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(./assets/fonts/Gilroy-Bold.woff);
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(./assets/fonts/Gilroy-Medium.woff);
+}
+
+*,
+*::before,
+*::after {
+  padding: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-family: 'Gilroy-Medium';
+}
+
+h1, h2 {
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.stickyhead {
+  margin: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  position: fixed;
+  display: inline-flex;
+  z-index: calc(1);
+  border-bottom: 1px #828282 solid;
+}
+
+.stickyhead>ul {
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+
+.stickyhead>ul>li {
+  display: inline-flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-right: 1.9rem;
+  padding-left: 1.9rem;
+}
+
+.stickyhead>ul>li>a {
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.stickyhead>ul>li>a:hover {
+  color: #070707;
+  font-family: 'Gilroy-Bold';
+}
+
+.burger {
+  display: none;
+}
+
+.denis {
+  margin: 0;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.profile_text {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 31px;
+  padding-right: 33px;
+}
+
+.profile_text>h1 {
+  font-family: 'Gilroy-Bold';
+  font-size: 47.34px;
+  line-height: 50px;
+}
+
+.denis_picture {
+  display: flex;
+  justify-content: center;
+}
+
+.slim_den {
+  display: none;
+}
+
+.about_me {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #F6F6F6;
+}
+
+.about_text {
+  padding-top: 80px;
+}
+
+.about_me>.about_text>h2,p {
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+}
+
+.skills {
+  padding-top: 60px;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.sub-skills {
+  display: flex;
+}
+
+.star {
+  padding: 0px;
+}
+
+.portfolio {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: #F6F6F6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.portfolio>div {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.portfolio>div>a {
+  color: #070707;
+}
+
+.contacts {
+  text-align: center;
+  justify-content: center;
+}
+
+.contacts-text>h2,p,button {
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: black;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: 'Gilroy-Bold';
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.contacts-pic {
+  justify-content: space-between;
+}
+
+.contacts-pic>img {
+  padding-right: 30px;
+}
+
+.contacts-pic>p {
+  color: #828282;
+}
+
+.contacts-pic>p>a {
+  text-decoration: none;
+  color: #828282;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+@media  screen and (max-width: 1100px) {
+  .portfolio>img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .stickyhead {
+    display: none;
+  }
+
+  header {
+    display: block;
+    width: 80%;
+    text-align: -webkit-right;
+  }
+
+  .burger {
+    display: contents;
+    position: fixed;
+  }
+
+  .denis {
+    margin-top: 40px;
+  }
+
+  .ru_en {
+    display: none;
+  }
+
+  .profile_text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+
+  .denis_picture {
+    display: none;
+  }
+  .slim_den {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub-skills {
+    flex-direction: column;
+  }
+}
