@@ -117,6 +117,7 @@ section {
     margin: 0px;
 }
 
+/* TODO для центрування іконок всередині їх контейнера можна було задати батьківським елементам display: flex; justify-content: center; align-items: center */
 .lable {
     position: relative;
     right: 50%;
