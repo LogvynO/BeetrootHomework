@@ -1,0 +1,80 @@
+* {
+  margin: 3px;
+}
+
+body {
+  background-color: #223636;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "head head head head" "aside main main main"  "footer footer footer footer";
+  gap: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.element {
+  padding: 40px;
+  background-color: black;
+  color: white;
+  border: 2px solid #298319;
+  border-radius: 20px;
+}
+
+.head {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: head;
+  text-align: center;
+}
+
+.side {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: aside;
+  text-align: center;
+}
+
+.side > ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+  text-align: center;
+}
+
+.body {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: main;
+}
+
+.foot {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: footer;
+  text-align: center;
+}
+
+.body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  gap: 5px;
+}
+
+.sub_element {
+  padding: 20px;
+  border: 1px solid #00a44d;
+  border-radius: 10px;
+}
+
+.sub_element:hover {
+  border: 1px yellow solid;
+}
+/*# sourceMappingURL=style.css.map */
