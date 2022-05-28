@@ -8,6 +8,10 @@
   color: #FFFFFF;
 }
 
+body {
+  max-width: 1770px;
+}
+
 h1 {
   font-size: 48px;
 }
@@ -60,7 +64,7 @@ button:active {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-width: 1770px;
+  width: 100%;
   height: 821px;
 }
 
@@ -116,9 +120,11 @@ button:active {
     padding-left: 8px;
 }
 
+
 .why_choose_us {
   background-image: url(./assets/pictures/background2.png);
-  height: 685px;
+  height: 100%;
+  max-height: 685px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
