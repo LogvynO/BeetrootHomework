@@ -45,6 +45,14 @@ else {
     alert('Невірне число')
 }; */
 
+// задача 3
+/* let i = prompt('provide start number to count range');
+for (let a = prompt('provide 2nd number'); a >= i; 
+     i++) {
+    console.log(i);
+    alert(i)
+} */
+
 
 // задача 6
 /* function reversedNum(num1) {
