@@ -33,16 +33,13 @@ var playList = [
   },
 ];
 
-var displayList = document.getElementsByName('playList[]');
+const newList = document.querySelector(".musicList")
+playList.map((item) => {
+  const li = document.createElement('li');
+  musicList.appendChild(li);
+  li.innerHTML = item.author + ' - ' + item.song
+})
 
-const musicList = document.getElementById('musicList');
-const li = document.createElement('li');
-musicList.appendChild(li);
-for (let i=0; i<displayList.length; i++ ) {
-    li.innerHTML=displayList
-};
-
-/* li.innerHTML=displayList; */
 
 let visibility = true;
 const knopka = document.getElementById('knopka');
