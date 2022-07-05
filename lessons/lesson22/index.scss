@@ -1,0 +1,174 @@
+*,
+body {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head {
+  width: 100%;
+  height: 80px;
+  background-color: #f8f1ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  color: #c62100;
+}
+
+.ul1 {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+.ul1 > li {
+  padding: 10px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.ul1 > li:hover {
+  background-color: #f16a50;
+  color: #f8f1ea;
+}
+
+.iconDecorations > a {
+  padding: 5px;
+  color: #35312d;
+}
+
+.findYourOwnStyle {
+  width: 100%;
+  height: 700px;
+  color: #f8f1ea;
+  text-align: right;
+}
+
+.slick-div1 {
+  background-image: url(./pictures/background/picture1.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.right-side {
+    padding: 12%;
+}
+
+.slick-div2 {
+  background-image: url(./pictures/background/picture2.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slick-div3 {
+  background-image: url(./pictures/background/picture3.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.view-more-white {
+  color: #f8f1ea;
+  background: none;
+  border: 2px solid #f8f1ea;
+  margin: 20px;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.view-more-white:hover {
+  background: #f16a50;
+  border: 2px solid #f16a50;
+}
+
+.new_arrivals {
+  width: 100%;
+  max-width: 1440px;
+  height: 660px;
+  text-align: center;
+}
+
+.guitars {
+    width: 95%;
+    max-width: 1440px;
+    display: inline-block;
+}
+
+.guitar-offer {
+    margin: 5px;
+    width: 250px;
+    height: 437px;
+    border: 1px solid black;
+}
+
+.guitar-offer>div {
+    text-align: center;
+}
+
+.slick-next::before {
+    color: #000000;
+}
+
+.slick-prev::before {
+    color: #000000;
+}
+
+.slick-dots>li>button:before {
+    color: #CAC2BA;
+    font-size: 20px;
+    opacity: 0.75;
+    top: -35px;
+}
+
+.slick-dots>li.slick-active>button:before {
+    color: #F16A50;
+}
+
+.view-more-black {
+  color: #000000;
+  background: none;
+  border: 2px solid #000000;
+  margin: 20px;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.view-more-black:hover {
+  color: #f8f1ea;
+  background: #f16a50;
+  border: 2px solid #f16a50;
+}
+
+.our_partners {
+  width: 100%;
+  max-width: 1440px;
+  height: 290px;
+  background-color: #f8f1ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.partners {
+    margin-top: 25px;
+    height: 40px;
+    width: 95%;
+    align-items: center;
+}
+
+
+
